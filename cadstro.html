@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login - AcquaTec</title>
     <link rel="stylesheet" href="Estilos.css">
-    <link rel="stylesheet" href="formulario-estilo.css">
+    <link rel="stylesheet" href="styles-cadastro.css">
+    
 </head>
 
 <body>
@@ -18,8 +19,8 @@
                     <li ><a href="Index.html">home</a></li>
                     <li>Simulador</li>
                     <li>|</li>
-                    <li id="aqui">Login</li>
-                    <li><a href="cadstro.html">Cadastro</a></li>
+                    <li><a href="Login.html">Login</a></li>
+                    <li id="aqui">Cadastro</li>
                 </ul>
             </div>
         </div>
@@ -27,9 +28,11 @@
         <div class="banner">
             <div class="container">
                 <div class="caixa_formulario">
-                    <h1>Olá de volta!</h1>
+                    <h1>Bem-vindo!</h1>
                     <div class="formulario">
 
+                        <span>Nome:</span>
+                        <input type="text" id="nome_input" placeholder="Nome">
 
                         <span>E-mail:</span>
                         <input type="email" id="email_input" placeholder="Seu E-mail">
@@ -37,7 +40,10 @@
                         <span>Senha:</span>
                         <input type="password" id="senha_input" placeholder="*********">
 
-                        <button>Entrar</button>
+                        <span>Confirme sua senha:</span>
+                        <input type="password" id="confir_input" placeholder="*********">
+
+                        <button>Cadastro</button>
                     </div>
                 </div>
             </div>
